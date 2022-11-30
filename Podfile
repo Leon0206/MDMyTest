@@ -19,11 +19,13 @@ workspace 'MDSwiftProject.xcworkspace'
 project 'MDSwiftProject'
 
 target 'MDSwiftProject' do
-  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
+  
   pod 'Home', :path => './LocalPods/Home', :inhibit_warnings => false
+  
+#  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
 
   # level 1
-#  pod 'AKOCommonToolsKit', '0.0.11'
+  pod 'AKOCommonToolsKit', '0.0.11'
   pod 'EasyLayout', '~> 1.0.0'
   # level 0
   pod 'RxSwift', '6.2.0'
