@@ -12,6 +12,8 @@ use_frameworks! :linkage => :static
 workspace 'MDSwiftProject.xcworkspace'
 project 'MDSwiftProject'
 
-target 'MDSwiftProject_Example' do
+target 'MDSwiftProject' do
+
+
  
 end

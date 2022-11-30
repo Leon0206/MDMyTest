@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D53FF3C846FFC986EFC13E6 /* Pods_MDSwiftProject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6155C5F4AAE65074C402ADAE /* Pods_MDSwiftProject_Example.framework */; };
+		3D53FF3C846FFC986EFC13E6 /* Pods_MDSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6155C5F4AAE65074C402ADAE /* Pods_MDSwiftProject.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		2F9F15B6FD4E2BB39ED32F27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* MDSwiftProject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDSwiftProject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* MDSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +35,11 @@
 		607FACE51AFB9204008FA782 /* MDSwiftProject_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDSwiftProject_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6155C5F4AAE65074C402ADAE /* Pods_MDSwiftProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDSwiftProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6155C5F4AAE65074C402ADAE /* Pods_MDSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8386547D3D026FA05294ACEA /* MDSwiftProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MDSwiftProject.podspec; path = ../MDSwiftProject.podspec; sourceTree = "<group>"; };
-		8FEDA956F98D73501E7107D6 /* Pods-MDSwiftProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSwiftProject_Example.release.xcconfig"; path = "Target Support Files/Pods-MDSwiftProject_Example/Pods-MDSwiftProject_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8FEDA956F98D73501E7107D6 /* Pods-MDSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-MDSwiftProject/Pods-MDSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		9D51093E8B34CF9D1BBAD62B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C3F3AB27E570F374219BCFA7 /* Pods-MDSwiftProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSwiftProject_Example.debug.xcconfig"; path = "Target Support Files/Pods-MDSwiftProject_Example/Pods-MDSwiftProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C3F3AB27E570F374219BCFA7 /* Pods-MDSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-MDSwiftProject/Pods-MDSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D8C5B9E7293727440094D10D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53FF3C846FFC986EFC13E6 /* Pods_MDSwiftProject_Example.framework in Frameworks */,
+				3D53FF3C846FFC986EFC13E6 /* Pods_MDSwiftProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* MDSwiftProject_Example.app */,
+				607FACD01AFB9204008FA782 /* MDSwiftProject.app */,
 				607FACE51AFB9204008FA782 /* MDSwiftProject_Tests.xctest */,
 			);
 			name = Products;
@@ -134,8 +134,8 @@
 		81C5ADA7A89FFFC3392DF02D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3F3AB27E570F374219BCFA7 /* Pods-MDSwiftProject_Example.debug.xcconfig */,
-				8FEDA956F98D73501E7107D6 /* Pods-MDSwiftProject_Example.release.xcconfig */,
+				C3F3AB27E570F374219BCFA7 /* Pods-MDSwiftProject.debug.xcconfig */,
+				8FEDA956F98D73501E7107D6 /* Pods-MDSwiftProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 		8D5FB7D465373D606AAE2AB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6155C5F4AAE65074C402ADAE /* Pods_MDSwiftProject_Example.framework */,
+				6155C5F4AAE65074C402ADAE /* Pods_MDSwiftProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* MDSwiftProject_Example */ = {
+		607FACCF1AFB9204008FA782 /* MDSwiftProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MDSwiftProject_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MDSwiftProject" */;
 			buildPhases = (
 				B51F237C3B238CA50E9CEA62 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = MDSwiftProject_Example;
+			name = MDSwiftProject;
 			productName = MDSwiftProject;
-			productReference = 607FACD01AFB9204008FA782 /* MDSwiftProject_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* MDSwiftProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* MDSwiftProject_Tests */ = {
@@ -222,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* MDSwiftProject_Example */,
+				607FACCF1AFB9204008FA782 /* MDSwiftProject */,
 				607FACE41AFB9204008FA782 /* MDSwiftProject_Tests */,
 			);
 		};
@@ -262,7 +262,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MDSwiftProject_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MDSwiftProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -295,7 +295,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* MDSwiftProject_Example */;
+			target = 607FACCF1AFB9204008FA782 /* MDSwiftProject */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -402,7 +402,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3F3AB27E570F374219BCFA7 /* Pods-MDSwiftProject_Example.debug.xcconfig */;
+			baseConfigurationReference = C3F3AB27E570F374219BCFA7 /* Pods-MDSwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MDSwiftProject/Info.plist;
@@ -418,7 +418,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FEDA956F98D73501E7107D6 /* Pods-MDSwiftProject_Example.release.xcconfig */;
+			baseConfigurationReference = 8FEDA956F98D73501E7107D6 /* Pods-MDSwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MDSwiftProject/Info.plist;
@@ -449,7 +449,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDSwiftProject_Example.app/MDSwiftProject_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDSwiftProject.app/MDSwiftProject";
 			};
 			name = Debug;
 		};
@@ -466,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDSwiftProject_Example.app/MDSwiftProject_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDSwiftProject.app/MDSwiftProject";
 			};
 			name = Release;
 		};
@@ -482,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MDSwiftProject_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MDSwiftProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

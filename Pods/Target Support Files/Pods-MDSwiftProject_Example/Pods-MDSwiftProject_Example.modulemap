@@ -1,6 +1,0 @@
-framework module Pods_MDSwiftProject_Example {
-  umbrella header "Pods-MDSwiftProject_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

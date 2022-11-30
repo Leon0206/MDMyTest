@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MDSwiftProject_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MDSwiftProject_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_MDSwiftProjectVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MDSwiftProjectVersionString[];
 

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MDSwiftProject
 //
-//  Created by lizitao on 11/30/2022.
-//  Copyright (c) 2022 lizitao. All rights reserved.
+//  Created by leon on 11/30/2022.
+//  Copyright (c) 2022 leon. All rights reserved.
 //
 
 import UIKit
