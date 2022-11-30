@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import AFNetworking
+import Home
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -15,7 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = ViewController()
+        if AccountCenter.shared.isLogin {
+            window.rootViewController = HomeTabBarVC()
+        } else {
+            window.rootViewController = SplashVC()
+        }
         window.makeKeyAndVisible()
         self.window = window
     }
