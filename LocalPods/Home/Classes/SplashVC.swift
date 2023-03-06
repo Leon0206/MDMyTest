@@ -8,8 +8,13 @@
 import UIKit
 
 open class SplashVC: UIViewController {
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
+       
     }
+ 
+    
+    
 }
