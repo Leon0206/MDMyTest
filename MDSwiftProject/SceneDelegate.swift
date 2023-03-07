@@ -8,6 +8,7 @@
 import UIKit
 import AFNetworking
 import Home
+import Programming
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -24,6 +25,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
         window.makeKeyAndVisible()
         self.window = window
+        
+        let manager = CommonOpsManager.manager
+        manager.testCase()
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
