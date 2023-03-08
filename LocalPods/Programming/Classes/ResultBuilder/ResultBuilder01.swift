@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if swift(>=5.4)
 @resultBuilder
 public struct ArrayResultBuilder<T> {
     
@@ -40,6 +41,9 @@ extension ArrayResultBuilder {
         builder()
     }
 }
+#else
+
+#endif
 
 protocol A {}
 
@@ -84,6 +88,34 @@ func PageType(for name: String?) -> [A] {
     }
 }
 
+func printSwiftVersion() {
+#if swift(>=5.7.0)
+print("Swift version: 5.7.2 or newer")
+#elseif swift(>=5.7)
+print("Swift version: 5.7 or newe")
+#elseif swift(>=5.4)
+print("Swift version: 5.4 or newe")
+#elseif swift(>=5.3)
+print("Swift version: 5.3")
+#elseif swift(>=5.2)
+print("Swift version: 5.2")
+#elseif swift(>=5.1)
+print("Swift version: 5.1")
+#elseif swift(>=5.0)
+print("Swift version: 5.0")
+#elseif swift(>=4.2)
+print("Swift version: 4.2")
+#elseif swift(>=4.1)
+print("Swift version: 4.1")
+#elseif swift(>=4.0)
+print("Swift version: 4.0")
+#elseif swift(>=3.0)
+print("Swift version: 3.0")
+#else
+print("Unknown Swift version")
+#endif
+
+}
 
 class ResultBuilder01 : CommonOpsProtocol {
     
@@ -108,6 +140,12 @@ class ResultBuilder01 : CommonOpsProtocol {
 //        let res = PageType(for: name)
 //        print(res)
         
+        let tvShow: [any Equatable] = ["Brooklyn", 99]
+        
+        printSwiftVersion()
+
+        
     }
 }
+
  

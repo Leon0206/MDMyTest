@@ -14,8 +14,10 @@ final public class CommonOpsManager : CommonOpsProtocol {
     private init() {}
     
     public func testCase() {
-        ResultBuilder01().testCase()
-        ResultBuilder00().testCase()
+        ExistentialType00().testCase()
+//        Associatedtype00().testCase()
+//        ResultBuilder01().testCase()
+//        ResultBuilder00().testCase()
 //        OpaqueTypes00().testCase()
 //        TypeErasure01().testCase()
 //        TypeErasure00().testCase()
