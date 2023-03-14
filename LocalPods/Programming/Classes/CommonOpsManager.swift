@@ -14,7 +14,14 @@ final public class CommonOpsManager : CommonOpsProtocol {
     private init() {}
     
     public func testCase() {
-        ExistentialType00().testCase()
+        
+        Actor01().testCase()
+//        AsyncAwait00().testCase()
+        
+//        OptionalTypes00().testCase()
+//        PhantomTypes01().testCase()
+//        PhantomTypes00().testCase()
+//        ExistentialType00().testCase()
 //        Associatedtype00().testCase()
 //        ResultBuilder01().testCase()
 //        ResultBuilder00().testCase()
