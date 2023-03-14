@@ -7,7 +7,7 @@
 
 import UIKit
 
-open class SearchVC: UIViewController {
+open class StackViewVC: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         let stackView = UIStackView()
@@ -34,6 +34,7 @@ open class SearchVC: UIViewController {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-
+        
+        view.backgroundColor = .white
     }
 }

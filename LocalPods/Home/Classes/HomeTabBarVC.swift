@@ -12,6 +12,7 @@ open class HomeTabBarVC: UITabBarController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.setupViewControllers()
+        view.backgroundColor = UIColor.white
     }
     
     func setupViewControllers() {
@@ -20,14 +21,14 @@ open class HomeTabBarVC: UITabBarController {
         let nav3 = setupVC(SettingVC(), "设置", "tab_setting", 3)
 
         setViewControllers([nav1, nav2, nav3], animated: false)
-
+        
     }
 
     func setupVC(_ vc: UIViewController, _ title:String, _ imageName:String, _ tag: Int) -> UINavigationController {
         vc.navigationItem.title = title
         let nav = UINavigationController(rootViewController: vc)
         nav.navigationBar.prefersLargeTitles = true
-        nav.navigationItem.largeTitleDisplayMode = .always
+        nav.navigationItem.largeTitleDisplayMode = .automatic
         let image = UIImage.home_image_named(imageName)
         let selectedImageName = imageName + "_selected"
         let selectedImage = UIImage.home_image_named(selectedImageName)
