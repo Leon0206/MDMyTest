@@ -24,7 +24,7 @@ target 'MDSwiftProject' do
   pod 'Programming', :path => './LocalPods/Programming', :inhibit_warnings => false
   pod 'Home', :path => './LocalPods/Home', :inhibit_warnings => false
   
-#  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
+#  pod 'AKOCommonToolsKit', :path => '/Users/zitao0206/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
 
   # level 1
   pod 'AKOCommonToolsKit', '0.0.11'

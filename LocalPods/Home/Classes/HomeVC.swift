@@ -2,7 +2,7 @@
 //  HomeVC.swift
 //  Home
 //
-//  Created by lizitao on 2022/11/30.
+//  Created by zitao0206 on 2022/11/30.
 //
 
 import UIKit
@@ -32,7 +32,8 @@ class HomeVC: UIViewController {
     lazy var items: [String] = {
         var items = [String]()
         items.append("UIStackView")
-        for i in 2...10 {
+        items.append("SwiftUI")
+        for i in 3...10 {
            items.append("Item \(i)")
         }
         return items
@@ -71,6 +72,8 @@ extension HomeVC: UICollectionViewDataSource {
        
         if indexPath.row == 0 {
             navigationController?.pushViewController(StackViewVC(), animated: true)
+        } else if indexPath.row == 1 {
+            navigationController?.pushViewController(SwiftUIVC(), animated: true)
         } else {
             print("index:\(indexPath.row) being tapped")
         }

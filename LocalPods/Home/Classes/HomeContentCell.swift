@@ -2,7 +2,7 @@
 //  HomeContentCell.swift
 //  Home
 //
-//  Created by lizitao on 2023/3/14.
+//  Created by zitao0206 on 2023/3/14.
 //
 
 import Foundation
