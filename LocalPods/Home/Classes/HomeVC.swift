@@ -33,7 +33,8 @@ class HomeVC: UIViewController {
         var items = [String]()
         items.append("UIStackView")
         items.append("SwiftUI")
-        for i in 3...10 {
+        items.append("Network")
+        for i in 4...10 {
            items.append("Item \(i)")
         }
         return items
@@ -74,6 +75,8 @@ extension HomeVC: UICollectionViewDataSource {
             navigationController?.pushViewController(StackViewVC(), animated: true)
         } else if indexPath.row == 1 {
             navigationController?.pushViewController(SwiftUIVC(), animated: true)
+        } else if indexPath.row == 2 {
+            navigationController?.pushViewController(NetworkVC(), animated: true)
         } else {
             print("index:\(indexPath.row) being tapped")
         }
